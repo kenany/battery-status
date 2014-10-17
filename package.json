@@ -1,0 +1,29 @@
+{
+  "name": "battery-status",
+  "version": "0.0.0",
+  "description": "Get the raw status of a battery",
+  "keywords": [
+    "battery"
+  ],
+  "repository": "KenanY/battery-status",
+  "license": "MIT",
+  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE.txt"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/index.js"
+  },
+  "dependencies": {
+    "first-line": "^1.0.1",
+    "lodash.isfunction": "^2.4.1"
+  },
+  "devDependencies": {
+    "tape": "^3.0.0"
+  }
+}
