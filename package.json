@@ -22,7 +22,7 @@
   "dependencies": {
     "battery-path": "^1.0.0",
     "first-line": "^1.0.1",
-    "lodash.isfunction": "^2.4.1"
+    "lodash.isfunction": "^3.0.8"
   },
   "devDependencies": {
     "tape": "^3.0.0"
