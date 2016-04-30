@@ -13,13 +13,15 @@ test('returns status', function(t) {
     t.error(error);
     t.ok(status === 'Charging'
       || status === 'Discharging'
-      || status === 'Full');
+      || status === 'Full'
+      || status === 'Unknown');
   });
   batteryStatus('BAT1', function(error, status) {
     t.error(error);
     t.ok(status === 'Charging'
       || status === 'Discharging'
-      || status === 'Full');
+      || status === 'Full'
+      || status === 'Unknown');
   });
 });
 
@@ -29,6 +31,7 @@ test('defaults to BAT0', function(t) {
     t.error(error);
     t.ok(status === 'Charging'
       || status === 'Discharging'
-      || status === 'Full');
+      || status === 'Full'
+      || status === 'Unknown');
   });
 });
