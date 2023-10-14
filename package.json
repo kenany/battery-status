@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "battery-path": "^1.0.0",
-    "first-line": "^3.0.1",
+    "first-line": "^4.0.0",
     "lodash.isfunction": "^3.0.9"
   },
   "devDependencies": {
